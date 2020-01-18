@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         // using our selected city name
         primaryButton.setOnClickListener { view ->
             // Create an intent to open the next activity
-            val intent = Intent(this, ScrollingListScreen::class.java).apply {
+            val intent = Intent(this, WeatherListActivity::class.java).apply {
                 // Pass in the required parameter, using the city we have selected
-                putExtra(ScrollingListScreen.PARAM_CITY_NAME, selectedCity)
+                putExtra(WeatherListActivity.PARAM_CITY_NAME, selectedCity)
             }
             startActivity(intent)
         }
