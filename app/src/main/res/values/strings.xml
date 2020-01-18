@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HowToAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string-array name="cities_list">
+        <!-- These items will appear in the following order, starting at index 0 -->
+        <item>Waterloo</item>
+        <item>Kitchener</item>
+        <item>Markham</item>
+        <item>Ajax</item>
+        <item>Toronto</item>
+    </string-array>
+</resources>
